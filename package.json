@@ -1,18 +1,20 @@
 {
   "name": "api-project",
-
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=16"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jbiasella/api-project.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jbiasella/api-project/issues"
   },
-  "homepage": "https://github.com/jbiasella/api-project#readme"
+  "homepage": "https://github.com/jbiasella/api-project#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
 }
