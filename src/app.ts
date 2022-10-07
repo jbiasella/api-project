@@ -3,8 +3,8 @@ import "express-async-errors";
 
 const app = express();
 
-app.get("/", (req, res) => {
-  res.send("This is the Space Facts API");
+app.get("/planets", (req, res) => {
+  res.json([{ name: "mercury" }, { name: "venus" }]);
 });
 
 export default app;
