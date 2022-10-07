@@ -4,7 +4,7 @@ import "express-async-errors";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("UP and Running!");
+  res.send("This is the Space Facts API");
 });
 
 const port = 3000;
